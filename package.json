@@ -1,0 +1,20 @@
+{
+  "name": "ca-firm-office-webdav",
+  "version": "1.0.0",
+  "description": "CA firm compliance management with Node WebDAV cloud storage adapter",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/webdav.test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "aws-sdk": "^2.814.0",
+    "@azure/storage-blob": "^12.4.0",
+    "mongoose": "^5.11.10",
+    "jsonwebtoken": "^8.5.1",
+    "xml2js": "^0.4.23",
+    "cors": "^2.8.5"
+  },
+  "author": "Dharmesh Patel"
+}
